@@ -275,5 +275,118 @@ footer {
   <p>جميع الحقوق محفوظة</p>
 </footer>
 
+<section id="free-courses">
+  <h2 class="section-title">أكاديمية EALAM ESKANDER</h2>
+  <p style="text-align:center;color:#c1ccda;margin-bottom:25px">
+    تعلم البرمجة من الصفر مجاناً وباللغة العربية
+  </p>
+
+  <div class="lesson">
+    <h3>01 - دورة HTML</h3>
+    <p>تعلم بناء صفحات المواقع من البداية.</p>
+    <details>
+      <summary>الدرس الأول: إنشاء أول صفحة</summary>
+      <p>HTML هي اللغة المستخدمة لبناء هيكل صفحات الويب.</p>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="ar"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;موقعي الأول&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;مرحباً بالعالم&lt;/h1&gt;
+&lt;p&gt;هذه أول صفحة لي&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </details>
+    <details>
+      <summary>الدرس الثاني: العناوين والفقرات</summary>
+      <pre><code>&lt;h1&gt;عنوان رئيسي&lt;/h1&gt;
+&lt;h2&gt;عنوان فرعي&lt;/h2&gt;
+&lt;p&gt;هذه فقرة تعليمية&lt;/p&gt;</code></pre>
+    </details>
+    <details>
+      <summary>الدرس الثالث: الروابط والصور</summary>
+      <pre><code>&lt;a href="https://example.com"&gt;افتح الموقع&lt;/a&gt;
+&lt;img src="photo.jpg" alt="صورة"&gt;</code></pre>
+    </details>
+  </div>
+
+  <div class="lesson">
+    <h3>02 - دورة CSS</h3>
+    <p>تعلم تصميم المواقع والألوان والخطوط.</p>
+    <details>
+      <summary>الدرس الأول: الألوان</summary>
+      <pre><code>body {
+  background: #080d18;
+  color: white;
+}
+h1 {
+  color: #45a3ff;
+}</code></pre>
+    </details>
+    <details>
+      <summary>الدرس الثاني: تنسيق الأزرار</summary>
+      <pre><code>button {
+  background: #1684ed;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+}</code></pre>
+    </details>
+  </div>
+
+  <div class="lesson">
+    <h3>03 - دورة JavaScript</h3>
+    <p>تعلم إضافة التفاعل والوظائف للمواقع.</p>
+    <details>
+      <summary>الدرس الأول: المتغيرات</summary>
+      <pre><code>let name = "Eskander";
+let age = 18;
+console.log(name);
+console.log(age);</code></pre>
+    </details>
+    <details>
+      <summary>الدرس الثاني: الدوال</summary>
+      <pre><code>function welcome() {
+  alert("أهلاً بك في موقعي");
+}
+welcome();</code></pre>
+    </details>
+  </div>
+
+  <div class="lesson">
+    <h3>04 - دورة Python</h3>
+    <p>تعلم أساسيات لغة Python.</p>
+    <details>
+      <summary>الدرس الأول: الطباعة</summary>
+      <pre><code>print("Hello World")
+print("EALAM ESKANDER")</code></pre>
+    </details>
+    <details>
+      <summary>الدرس الثاني: المتغيرات</summary>
+      <pre><code>name = "Hamza"
+age = 17
+print(name)
+print(age)</code></pre>
+    </details>
+  </div>
+
+  <div class="lesson">
+    <h3>05 - دورة GitHub</h3>
+    <p>تعلم حفظ مشاريعك وإدارة ملفات المواقع ونشرها.</p>
+    <details>
+      <summary>ماذا ستتعلم؟</summary>
+      <p>إنشاء Repository ورفع الملفات وحفظ التعديلات واستخدام GitHub Pages.</p>
+    </details>
+  </div>
+
+  <div style="text-align:center;padding:20px">
+    <h3 style="color:#55aaff">التعليم مجاني للجميع</h3>
+    <p>ابدأ رحلتك في عالم البرمجة مع EALAM ESKANDER</p>
+  </div>
+</section>
+
 </body>
 </html>
